@@ -1,0 +1,303 @@
+.mainfooter{
+    font-family: 'Nunito', sans-serif;
+    height: auto;
+    background-color: #0E2A47;
+    color: white;
+    /* color: rgba(255, 255, 255, 0); */
+}
+
+
+
+.mainfooter a{    
+    color: #cfd9e0;
+    text-decoration: none;
+}
+
+.mainfooter a:hover{
+    color: rgb(148, 146, 240);
+    text-decoration: none;
+}
+
+.footerwhydiv{
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1%;
+    /* background-image: linear-gradient(to right, rgb(12, 84, 152), rgb(34, 137, 221)); */
+    color: #cfd9e0;
+    background: #08192B;
+}
+
+.footerlogodiv{
+    /* border: 2px solid olive; */
+    width: 30%;
+    text-align: center;
+}
+
+.footerwhatparadiv{
+    /* border: 2px solid orange; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.whatheadingdiv{
+    /* border: 2px solid seagreen; */
+    text-align: left;
+    margin: 0px;
+    padding: 0%;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.whatparadiv{
+    /* border: 2px solid navy; */
+    text-align: left;
+    width: 90%;
+}
+
+.linksfooterdiv{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1%;
+    height: 27vh;
+}
+
+.footercourses1{
+    text-align: left;
+    /* border: 2px solid seagreen; */
+    /* margin: 5%; */
+}
+
+.footerworklinks1{
+    text-align: left;
+    /* border: 2px solid seagreen; */
+    /* margin: 5%; */
+    /* text-decoration: none; */
+}
+.footerworklinks1 li{
+    list-style: none;
+    text-align: left;
+    /* border: 2px solid seagreen; */
+    /* text-decoration: none; */
+    
+}
+
+.footerk12courses1 li{
+    list-style: none;
+    text-align: left;
+    /* border: 2px solid seagreen; */
+}
+
+.footercourses1 li{
+    list-style: none;
+    text-align: left;
+    /* border: 2px solid seagreen; */
+}
+
+.footerk12courses1{
+    text-align: left;
+    /* border: 2px solid seagreen; */
+    /* margin: 5%; */
+}
+
+
+.footercourses1 h3{
+    font-size: x-large;
+}
+
+.footerk12courses1 h3{
+    font-size: x-large;
+}
+
+.footerworklinks1 h3{
+    font-size: x-large;
+}
+
+.footerimage1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+}
+
+.footersocialdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px solid hotpink; */
+    /* padding: 10px; */
+    /* margin: 0px; */
+    /* background-image: linear-gradient(to right, rgb(12, 84, 152), rgb(34, 137, 221)); */
+    color: white;
+    background-color: #08192B;
+    /* padding: 1%; */
+    /* height: 5vh; */
+    
+}
+
+
+.copyrightdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px solid hotpink; */
+}
+
+.socialseactiondiv{
+    font-size: medium;
+    /* border: 2px solid hotpink; */
+    margin: 0px;
+    padding: 10px;
+}
+
+.socialmedia{
+    /* border: 2px solid red; */
+    /* padding: 15%; */
+    padding: 12px;
+}
+
+.footerbutton{
+    font-size: large;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #30d2f6de; 
+    color:#ffffff;
+    border: 2px solid #30d2f6d0;  
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    padding: 1%;
+    margin: auto;
+}
+  
+.footerbutton:hover{
+    /* background-image: linear-gradient(to right, rgba(29, 4, 250, 0.479), rgba(0, 162, 255, 0.849)); */
+    background-color: #55acee00;
+    color: #30D3F6;
+    box-shadow: 0px 1px 0px 0px rgba(8, 142, 252, 0.459);
+    /* border: 2px solid #55ACEE; */
+}
+
+.aw{
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+.knowmorebutton{
+    font-size: large;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0); 
+    color:#ffb229;
+    border: 2px solid #ffb229;  
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    padding: 5%;
+}
+  
+.knowmorebutton:hover{
+    /* background-image: linear-gradient(to right, rgba(29, 4, 250, 0.479), rgba(0, 162, 255, 0.849)); */
+    background-color: #ffb229;
+    color: white;
+    box-shadow: 0px 1px 0px 0px rgba(8, 142, 252, 0.459);
+    border: 2px solid #ffb229;
+}
+
+/* tablet or mobile */
+@media screen and (max-width:1150px){
+    .footerwhydiv{
+        /* border: 2px solid rebeccapurple; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: auto;   
+    }
+
+    .footerlogodiv{
+        /* border: 2px solid olive; */
+        width: auto;
+        text-align: center;
+    }
+    
+    .footerwhatparadiv{
+        /* border: 2px solid orange; */
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 1%;
+    }
+    
+    .whatheadingdiv{
+        /* border: 2px solid seagreen; */
+        text-align: center;
+    }
+    
+    .whatparadiv{
+        /* border: 2px solid mediumorchid; */
+        text-align: center;
+        width: auto;
+    }
+    
+    .linksfooterdiv{
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: auto;
+        height: auto;
+    }
+    
+    .footercourses1{
+        text-align: center;
+        /* border-bottom: 2px solid #08192B; */
+    }
+
+    .footercourses1 li{
+        text-align: center;
+        /* border: 2px solid seagreen; */
+    }
+    
+    .footerworklinks1{
+        text-align: center;
+        /* border: 2px solid seagreen; */
+        /* border-bottom: 2px solid #08192B; */
+    }
+    .footerworklinks1 li{
+        text-align: center;
+        /* border: 2px solid seagreen; */
+        
+    }
+    
+    .footerk12courses1 li{
+        text-align: center;
+        /* border: 2px solid seagreen; */
+    }
+    
+    .footerk12courses1{
+        text-align: center;
+        /* border-bottom: 2px solid #08192B; */
+    }
+
+    .footerimage1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* border: 2px solid red; */
+    }
+
+    .knowmorebutton{
+        padding: 2%;
+    }
+
+    .footersocialdiv{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        /* border: 2px solid hotpink;         */
+    }
+}
