@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "60433c3e6095fda5ac3a",
-    "url": "/static/css/main.76994bb6.chunk.css"
+    "revision": "0b7694d259ac877b2c4d",
+    "url": "/static/css/main.816933fb.chunk.css"
   },
   {
-    "revision": "60433c3e6095fda5ac3a",
-    "url": "/static/js/main.c6fd5b70.chunk.js"
+    "revision": "0b7694d259ac877b2c4d",
+    "url": "/static/js/main.e9801869.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "ba22d2f4061d857376fa",
+    "revision": "4c04a3df4c1f9b03a3ad",
     "url": "/static/css/2.0e632296.chunk.css"
   },
   {
-    "revision": "ba22d2f4061d857376fa",
-    "url": "/static/js/2.28b91d46.chunk.js"
+    "revision": "4c04a3df4c1f9b03a3ad",
+    "url": "/static/js/2.bd3e4a2f.chunk.js"
   },
   {
     "revision": "1148c3f8e2967ac6bec44c39b0440b18",
@@ -76,6 +76,10 @@ self.__precacheManifest = [
     "url": "/static/media/html_wbg.63ea07ca.png"
   },
   {
+    "revision": "d5ffc78db1f67304a84c68d29e7fff33",
+    "url": "/static/media/collegeImage900.d5ffc78d.png"
+  },
+  {
     "revision": "efba608357aaa885a757521619bd4447",
     "url": "/static/media/AnimationLogo.efba6083.png"
   },
@@ -118,10 +122,6 @@ self.__precacheManifest = [
   {
     "revision": "0f255440cfc694f8e3820e6d5d74a6be",
     "url": "/static/media/EthicalHacking.0f255440.png"
-  },
-  {
-    "revision": "d5ffc78db1f67304a84c68d29e7fff33",
-    "url": "/static/media/collegeImage900.d5ffc78d.png"
   },
   {
     "revision": "7cc0e77fc7042d152dad743170e07b25",
@@ -316,11 +316,15 @@ self.__precacheManifest = [
     "url": "/static/media/EthicalHackingCourse.08711125.png"
   },
   {
+    "revision": "f3ee0b76842f627c327c8d68cc750a05",
+    "url": "/static/media/WelcomeVector.f3ee0b76.png"
+  },
+  {
     "revision": "f6f9950124e0e982fa77af88a78c7a6c",
     "url": "/static/media/Sliders4.f6f99501.jpg"
   },
   {
-    "revision": "8d9b63b2bb247cea81b938f8c08c65a8",
+    "revision": "c7c1f71f0ddea20b14d628bfb1cbb5d6",
     "url": "/index.html"
   }
 ];
