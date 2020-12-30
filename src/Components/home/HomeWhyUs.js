@@ -24,7 +24,7 @@ class HomeWhyUs extends React.Component {
         return (
             <div style={{
                 // border:"2px solid red",
-                // backgroundColor:"#f2ffff",
+                backgroundColor:"#0E2A47",
                 color: "#08192B",
                 fontFamily: "'Nunito', sans-serif",
             }} >
@@ -35,19 +35,24 @@ class HomeWhyUs extends React.Component {
                             fontSize: "40px",
                             fontWeight: "bolder",
                             fontFamily: "'Nunito', sans-serif",
+                            color:"#fff",
                         }}>Why Students Choose Us</h3>
                     </Container>
                 </Zoom>
 
                 <Container>
                     <Row className="text-center">
-                        <Col xl={4}>
+                        <Col xl={3} className="mx-1" style={{
+                            // border: "2px solid red",
+                                borderRadius:"20px",
+                                backgroundColor:"#fff"
+                            }}
+                                >
                             <Image className="text-center px-4 py-4" src={Icon1} height="150" width="150" style={{
-                                // border: "2px solid red",
-                                // borderRadius:"20px",
+                                
                             }} />
                             <p style={{
-                                fontSize: "35px",
+                                fontSize: "30px",
                                 fontWeight: "800",
                             }}>24x7 Expert Support</p>
                             <p style={{
@@ -56,10 +61,15 @@ class HomeWhyUs extends React.Component {
                             }}>Our expert team is here to help you with your all kinds of problem. Whether it is 2 o'clock in the morning or 11 o'clock in night, our team is standing by your side to clear all your doubts (online).</p>
                         </Col>
 
-                        <Col xl={4}>
+                        <Col xl={3} className="mx-1" style={{
+                            // border: "2px solid red",
+                                borderRadius:"20px",
+                                backgroundColor:"#fff"
+                            }}>
                             <Image className="text-center px-4 py-4" src={CurriculumIcon} height="150" width="150" style={{
                                 // border: "2px solid red",
                                 // borderRadius:"20px",
+                                
                             }} />
                             <p style={{
                                 fontSize: "35px",

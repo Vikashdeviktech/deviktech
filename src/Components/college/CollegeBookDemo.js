@@ -62,8 +62,8 @@ class CollegeBookDemo extends React.Component {
                                 Take the free trial class and our guidance counsellor will help build a custom path based on your child’s performance. Take the free trial class and our guidance counsellor will help build a custom path based on your child’s performance.
                             </p>
                         </Col>
-                        <Col className="mt-2 pt-4 text-center d-none d-sm-block" xl={3}>
-                            <ButtonStyle onClick={this.enroll} className="my-4 py-3">Book A Free Demo Now</ButtonStyle>
+                        <Col className="mt-2 pt-4 text-center" xl={3}>
+                            <ButtonStyle onClick={this.enroll} className="mb-2 py-3">Book A Free Demo Now</ButtonStyle>
                         </Col>
                     </Row>
 

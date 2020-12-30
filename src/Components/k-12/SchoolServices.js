@@ -72,7 +72,7 @@ class SchoolServices extends React.Component {
                             <p className="py-2 text-center" style={{
                                 fontFamily: "'Nunito', sans-serif",
                                 fontWeight: "800",
-                            }}>Real Life Projects</p>
+                            }}>Real Time Projects</p>
 
                         </Col>
                         <Col xl={2} style={{

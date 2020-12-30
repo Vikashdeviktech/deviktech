@@ -53,7 +53,13 @@ const renderTooltip = (props) => (
 );
 
 
+
 class AllCourses extends React.Component {
+   advancePython = () => {
+       console.log(this.props)
+        this.props.history.push('/CourseDescription');
+        
+    }
     render() {
 
         return (
@@ -869,7 +875,8 @@ class AllCourses extends React.Component {
                                                 <FontAwesomeIcon icon={faStar} color="#FFC700" size="1x" /><FontAwesomeIcon icon={faStar} color="#FFC700" size="1x" /><FontAwesomeIcon icon={faStar} color="#FFC700" size="1x" /><FontAwesomeIcon icon={faStar} color="#FFC700" size="1x" /><FontAwesomeIcon icon={faStarHalfAlt} color="#FFC700" size="1x" />(4.5/5)
                                             </Col>
                                             <Col xs={12} className="my-2 px-4 text-center">
-                                                <ButtonStyle variant="primary">Course Details</ButtonStyle>
+                                                {console.log(this.props)}
+                                                <ButtonStyle variant="primary" onClick={this.advancePython}>Course Details</ButtonStyle>
                                             </Col>
                                         </Row>
                                     </Col>

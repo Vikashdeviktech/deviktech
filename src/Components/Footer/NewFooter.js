@@ -95,13 +95,16 @@ class NewFooter extends React.Component {
                                             fontFamily: "'Nunito', sans-serif",
                                         }}>We provide Live sessions by the industry experts where you get to know about the various paradigms of problem solving and their applications in the real world. We provide one to one sessions for all types of doubt clarifications. We provide Live sessions by the industry experts where you get to know about the various paradigms of problem solving and their applications in the real world.
                                     DevikTech students are trained in such a way that they are always 3 years ahead of the students of their age. We at DevikTech provide a wide range of courses to empower students from different fields. We provide Live sessions by the industry experts and project which help our students in the real world. Best thing happen to you.</p>
-                                        <ButtonStyle className="py-2" onClick={this.enroll} type="submit">
-                                            Book A Demo
+                                        <Row>
+                                            <ButtonStyle className="py-2" onClick={this.enroll} type="submit">
+                                                Book A Demo
                                         </ButtonStyle>
 
-                                        <ButtonStyle className="mx-2 py-2" onClick={this.enroll} type="submit">
-                                            Know More
+                                            <ButtonStyle className="mx-1 py-2" onClick={this.enroll} type="submit">
+                                                Know More
                                         </ButtonStyle>
+                                        </Row>
+
                                     </Col>
                                 </Zoom>
 
@@ -173,8 +176,8 @@ class NewFooter extends React.Component {
                                             <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>Courses</a></li>
                                             <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>About Us</a></li>
                                             <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>Contact Us</a></li>
+                                            <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>Private policy </a></li>
                                             <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>Teams and Condition</a></li>
-                                            <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>Private policy</a></li>
                                         </div>
 
 
@@ -204,12 +207,12 @@ class NewFooter extends React.Component {
                                             listStyleType: "none",
 
                                         }}>
+                                            <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>Intership</a></li>
                                             <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>Instructor</a></li>
                                             <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>Marketing</a></li>
-                                            <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>Content Development</a></li>
-                                            <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>Intership</a></li>
                                             <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>Frontend Developer</a></li>
                                             <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>Backend Developer</a></li>
+                                            <li><a href="#index" style={{ color: "#ffffff", textDecoration: "none" }}>Content Development</a></li>
                                         </div>
 
                                     </Col>

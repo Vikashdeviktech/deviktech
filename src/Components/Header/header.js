@@ -11,6 +11,7 @@ import Nav from 'react-bootstrap/Nav'
 import Button from 'react-bootstrap/Button'
 import logo from "../../images/logo1.png"
 import styled from 'styled-components';
+import { Redirect } from "react-router";
 
 
 const Aboutimagearea = styled("div")`
@@ -26,10 +27,25 @@ width:40px;
 
 class Header extends React.Component{
 
-    enroll=()=>{
+   /*  enroll=()=>{
         window.open('https://docs.google.com/forms/d/e/1FAIpQLSfu0Iw5dSJNbymQetE7trMsoil-WWqUfylVgyg7GC0TYjdECw/viewform?vc=0&c=0&w=1','_blank')
+    } */
+    state = {
+        redirect: false
     }
-
+    redirectHandler = () => {
+        this.setState({ redirect: true })
+        this.renderRedirect();
+      
+    }
+    renderRedirect = () => {
+        if (this.state.redirect) {
+            return <Redirect to='/trail' />
+        }
+        
+    }
+   
+    
     render(){
     return (
         <div>
@@ -55,8 +71,9 @@ class Header extends React.Component{
                         <NavLink to ="/aboutUs" exact className="mr-4" id="links" href="/aboutus">ABOUT US</NavLink>
                         <NavLink to ="/contactUs" exact className="mr-4" id="links" href="/contactus">CONTACT US</NavLink>
                     </Nav>
-                    <Button className="applybuttonheader" onClick={this.enroll}>Enroll Now</Button>
-                  
+                    <Button className="applybuttonheader" onClick={this.redirectHandler}>Enroll Now</Button>
+                    {this.renderRedirect()}
+                   
                 </Navbar.Collapse>
             </Navbar>
 
@@ -82,7 +99,8 @@ class Header extends React.Component{
                         <NavLink to ="/aboutUs" exact className="mr-4" id="links" href="/aboutus">ABOUT US</NavLink>
                         <NavLink to ="/contactUs" exact className="mr-4" id="links" href="/contactus">CONTACT US</NavLink>
                     </Nav>
-                    <Button className="applybuttonheader" onClick={this.enroll}>Enroll Now</Button>
+                    <Button className="applybuttonheader" onClick={this.redirectHandler}>Enroll Now</Button>
+                    {this.renderRedirect()}
                 </Navbar.Collapse>
             </Navbar>
 

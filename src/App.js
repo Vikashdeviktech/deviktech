@@ -15,6 +15,14 @@ import { NavLink } from 'react-bootstrap';
 import K12component from './Components/k-12/k12components.js';
 import Courses from './Components/Courses/courses';
 import CoursesDescription from './Components/course-description/CourseDescription.js';
+import Trail from './Components/Demo/trail';
+import ChooseClass from './Components/Demo/chooseClass';
+import SchoolProgramDemo from './Components/Demo/schoolProgramDemo';
+import CollegeProgramDemo from './Components/Demo/collegeProgramDemo';
+
+import DemoTime from './Components/Demo/demoTime';
+import WayToJoinClass from './Components/Demo/wayToJoinClass';
+import Welcome from './Components/Demo/welcome';
 
 
 
@@ -42,7 +50,7 @@ const routeItems = [
         component: CoursesDescription
     },
     {
-        path: '/collagePage',
+        path: '/collegePage',
         component: CollegePage
     },
     {
@@ -52,9 +60,35 @@ const routeItems = [
     {
         path: '/k12',
         component: K12component
+    },
+    {
+        path: '/trail',
+        component: Trail
+    },
+    {
+        path: '/chooseClass',
+        component: ChooseClass
+    },
+    {
+        path: '/schoolProgramDemo',
+        component: SchoolProgramDemo
+    },
+    {
+        path: '/collegeProgramDemo',
+        component: CollegeProgramDemo
+    },
+    {
+        path: '/demoTime',
+        component: DemoTime
+    },
+    {
+        path: '/wayToJoinclass',
+        component: WayToJoinClass
+    },
+    {
+        path: '/welcome',
+        component: Welcome
     }
-
-
 
 ]
 

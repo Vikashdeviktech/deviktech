@@ -64,9 +64,9 @@ class SchoolWhyCoding extends React.Component {
                                 lineHeight: "65px",
                                 letterSpacing: "0.02em",
                                 fontFamily: "'Nunito', sans-serif",
-                                // textAlign: "center",
+                                textAlign: "center",
                             }}>
-                                Why Coding For Kids</p>
+                                Why Coding For Kids ?</p>
 
                                 <p style={{
                                 // border: "2px solid #0F2B48",
@@ -82,8 +82,14 @@ class SchoolWhyCoding extends React.Component {
                                 <li>Children who learn to code understand how to plan and organize thoughts.  This can lead to better writing skills that can be built upon as coding skills develop over time. </li>
                                 </p>
 
-                                <ButtonStyle onClick={this.enroll} className="mt-3">Book Demo</ButtonStyle>
+                                
                         </Col>
+                        <Col style={{
+                            textAlign:"center",
+                        }}>
+                            <ButtonStyle onClick={this.enroll} className="mt-3">Book Demo</ButtonStyle>
+                        </Col>
+                        
                     </Row>
 
 

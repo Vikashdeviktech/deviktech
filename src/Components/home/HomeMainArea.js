@@ -48,7 +48,7 @@ class HomeMainArea extends React.Component {
                                         // border: "2px solid black",
                                         height: "auto",
                                         margin: "5% 10% 0% 10%",
-                                        color: "#08192B",
+                                        // color: "#08192B",
                                         fontWeight: "800",
                                         fontSize: "50px",
                                         lineHeight: "65px",
@@ -66,7 +66,7 @@ class HomeMainArea extends React.Component {
                                         color: "#08192B",
                                         fontWeight: "700",
                                         fontFamily: "'Nunito', sans-serif",
-                                    }}>The perfect platform to become the next creator of Programming world.</h3>
+                                    }}>The perfect platform to become the next creator of this programming world.</h3>
                                 </Col>
                                 <Col xs={12}>
                                     <p style={{

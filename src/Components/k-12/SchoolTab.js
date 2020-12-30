@@ -83,14 +83,14 @@ class SchoolTab extends React.Component {
                                 // border: "2px solid #0F2B48",
                                 color: "#08192B",
                                 fontWeight: "800",
-                                fontSize: "35px",
+                                fontSize: "30px",
                                 lineHeight: "65px",
                                 letterSpacing: "0.02em",
                                 fontFamily: "'Nunito', sans-serif",
                                 width: "100%",
                                 textAlign: "center",
                             }}>
-                                Explore Grade options</p>
+                                Explore Grade Options</p>
                         </Col>
                         <Col xl={12} >
                             <p className="px-4" style={{

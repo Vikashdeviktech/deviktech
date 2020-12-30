@@ -82,7 +82,7 @@ class CollegeTab extends React.Component {
                                 // border: "2px solid #0F2B48",
                                 color: "#08192B",
                                 fontWeight: "800",
-                                fontSize: "35px",
+                                fontSize: "30px",
                                 lineHeight: "65px",
                                 letterSpacing: "0.02em",
                                 fontFamily: "'Nunito', sans-serif",

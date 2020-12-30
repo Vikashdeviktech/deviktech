@@ -60,8 +60,9 @@ class HomeQuotes extends React.Component {
                                             fontWeight: "800",
                                             borderLeft: "10px solid #091A2C",
                                             borderRadius: "10px",
+                                            
                                         }}>
-                                            A perfect platform<br></br> to become the next creator of Programming world.
+                                            The perfect platform<br></br> to become the next creator of this Programming world.
                                            
                                     </h1>
                                         <h5 className="my-2 py-2" style={{

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* .mainheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    height: 50px;
+    background-color: #08192B;
+    border: 2px solid red;
+} */
+
+.mainheader{
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffffff;
+    /* background-color: #08192B;    */
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#links{
+    color: #0F2B48;
+    /* color: #cfd9e0; */
+    border-bottom: 1px solid #ffb12900;
+    border-top: 3px solid #ffb12900;
+}
+
+#links:hover{
+    /* border-bottom: 1px solid #0F4FCD; */
+}
+
+#headerlogo{
+    color: #cfd9e0;
+    border-bottom: 1px solid #ffb12900;
+}
+
+#basic-navbar-nav{
+    color: #cfd9e0;
+}
+
+
+.headerelements{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    /* border: 2px solid rgb(255, 253, 253); */
+}
+
+#menuelements{
+    font-size: large;
+    text-align: left;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px solid orange; */
+    width: 60%;
+    text-transform: uppercase;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.linksheader{
+    /* border: 2px solid red; */
+    color: #cfd9e0;
+
+}
+
+.menu_list{
+    /* border: 2px solid red;  */
+    padding: 17px;
+    /* position: relative;
+    top: 15px; */
+}
+
+.menu_list a:hover{
+    border-bottom: 1px solid #ffb129e5;
+    /* border: 2px solid red; */
+    /* background-color: #0E2A47; */
+    color: #cfd9e0;
+
+}
+
+#menuelements a:link{
+    text-decoration: none;
+}
+
+#menuelements a:active{
+    text-decoration: none;
+}
+
+.menulogo {
+    /* border: 2px solid red; */
+    width: 10%;
+    color: #b9b9b9;
+}
+
+.menulogo img{
+    /* border: 2px solid deeppink; */
+    height: 50px;
+    width: 90px;
+    
+}
+
+.headerbutton{
+    /* border: 2px solid rebeccapurple; */
+    width: 10%;
+
+}
+
+.applybuttonheader{
+    font-size: medium;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #0F2B48; 
+    color:#ffffff;
+    border: 2px solid #0F2B48;  
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+    padding: 5px 20px 5px 20px;
+}
+  
+.applybuttonheader:hover{
+    /* background-image: linear-gradient(to right, rgba(29, 4, 250, 0.479), rgba(0, 162, 255, 0.849)); */
+    background-color: #282045;
+    color: white;
+    /* box-shadow: 0px 1px 0px 0px rgba(8, 142, 252, 0.459); */
+    border: 2px solid #282045;
+}
+
+/* .applybuttonheader{
+    font-size: large;
+    transition-duration: 0.3s;
+    background-color: rgba(255, 255, 255, 0); 
+    color:#1d04fad8;
+    border: 2px solid #0084ff80;  
+    border-radius: 10px;
+    font-family: 'Nunito', sans-serif;
+    cursor: pointer;
+    height: 50px;
+}
+  
+.applybuttonheader:hover{
+    background-image: linear-gradient(to right, rgba(29, 4, 250, 0.479), rgba(0, 162, 255, 0.849));
+    color: white;
+    box-shadow: 0px 1px 0px 0px rgba(8, 142, 252, 0.459);
+    border: 2px solid white;
+} */
+
+#iconbar{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+/* laptop */  
+
+@media screen and (min-width:1150px){
+    
+
+}
+
+/* tablet or mobile */
+@media screen and (max-width:1150px){
+
+    .headerelements{
+        width: 60%;
+        /* border: 2px solid black; */
+        background-color: #eeeeee;
+       
+    }
+
+
+
+    #menuelements{
+        opacity: 0;
+        visibility: hidden;
+        /* border: 2px solid red; */
+        font-size: xx-small;
+    }
+
+    #iconbar{
+        position: relative;
+        top: 15px;
+        right: auto;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .headerbutton{
+        /* border: 2px solid rebeccapurple; */
+        width: auto;
+    
+    }
+    
+    .applybuttonheader{
+        font-size: medium;
+        height: 50px;
+        padding: auto;
+        margin: auto;
+    }
+
+    /* .menu_list .responsive{
+        width: 100%!important;
+        height: 100vh!important;
+        background-color: black;
+        position: relative;
+    } */
+
+}
